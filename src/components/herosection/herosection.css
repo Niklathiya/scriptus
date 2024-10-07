@@ -1,0 +1,19 @@
+.hero-container{
+    background-color: #C4C4C4;
+    padding: 100px 0px;
+    border-radius: 0px 0px 60px 60px;
+}
+.hero-section-detail{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.hero-container h1{
+    font-size: 64px;
+    color: var(--primary-color-dark);
+}
+.hero-tag-line{
+    font-size: 24px;
+    padding: 30px 0px 30px 0px;
+}

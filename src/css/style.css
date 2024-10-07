@@ -1,0 +1,69 @@
+/* -------------------------------------------------------------------------- */
+/*                                 Common css                                 */
+/* -------------------------------------------------------------------------- */
+:root {
+  --primary-color: #70908b;
+  --primary-color-dark: #07484a;
+  --secondary-color: #77ffc3;
+  --white: #ffffff;
+  --black: #000000;
+  --playfair-display: Playfair-Display;
+  --open-sans: Open-Sans;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  scroll-behavior: smooth;
+  outline: none;
+}
+body {
+  font-family: var(--open-sans);
+  overflow-x: hidden;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.custom-container{
+  max-width: 1620px;
+  margin: 0px auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--playfair-display);
+}
+
+
+.font-color{
+  color: var(--primary-color);
+}
+.font-color-dark{
+  color: var(--primary-color-dark);
+}
+.primary-color{
+  background-color: var(--primary-color);
+}
+.primary-color-dark{
+  background-color: var(--primary-color-dark);
+}
+
+.hero-button{
+  background-color: var(--primary-color);
+  color: var(--white);
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 14px;
+
+}

@@ -1,0 +1,19 @@
+@media screen and (max-width: 1620px) {
+    .custom-container{
+        max-width: 1440px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .custom-container{
+        max-width: 1080px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .custom-container{
+        max-width: 1024px;
+        margin: 0px 50px;
+    }
+    .header-menu{
+        display: none !important;
+    }
+}
