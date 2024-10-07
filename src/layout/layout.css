@@ -24,14 +24,14 @@
   align-items: center;
   list-style: none;
 }
-.header-menu li {
+.header-menu li, .header-menu-icon li {
   padding: 0px 10px;
   color: var(--primary-color);
 }
 .header-menu li a {
   color: var(--primary-color) !important;
 }
-.header-menu li img {
+.header-menu-icon li img {
   width: 20px;
   height: 20px;
 }
