@@ -35,7 +35,11 @@
   width: 20px;
   height: 20px;
 }
-
+.menu-icon{
+  width: 24px;
+  height: 24px;
+  display: none;
+}
 
 /* -------------------------------------------------------------------------- */
 /*                                 Footer Css                                 */
@@ -47,6 +51,7 @@ footer{
   padding: 80px 0px;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .footer-social{
   margin: 20px 0px;

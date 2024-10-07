@@ -1,16 +1,15 @@
 import React, { useState } from "react";
 import "./layout.css";
 import { Link } from "react-router-dom";
-import { Logo, Search, Cart, Profile } from "../image";
+import { Logo, Search, Cart, Profile, Menuicon } from "../image";
 
 const Header = () => {
   /* -------------------------------------------------------------------------- */
   /*                         Responsive header function                         */
   /* -------------------------------------------------------------------------- */
 
-  const [clicked, setclicked] = useState(false);
-  const onClickClose = () => {
-    setclicked(!clicked);
+  const openSidebarMenu = () => {
+    console.log("sidebar open")    
   };
 
   return (
@@ -38,6 +37,7 @@ const Header = () => {
             <Link to="/">Contact Us</Link>
         </li>
         </ul>
+        <img src={Menuicon} alt="menu-icon" className="menu-icon" onClick={openSidebarMenu}/>
 
         <ul className="header-menu-icon">
         <li>

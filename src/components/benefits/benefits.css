@@ -11,6 +11,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 50px 0px 0px 0px;
+  flex-wrap: wrap;
 }
 .benefit-image-wrapper {
   display: flex;

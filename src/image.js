@@ -10,5 +10,6 @@ import Instagram from "./images/instagram.svg"
 import Linkedin from "./images/linkedin.svg"
 import Dribble from "./images/dribble.svg"
 import X from "./images/x.svg"
+import Menuicon from "./images/menu-icon.svg"
 
-export {Logo, Search, Cart, Profile, Payment, Return, Contact, Facebook, Instagram, Linkedin, Dribble, X}
+export {Logo, Search, Cart, Profile, Payment, Return, Contact, Facebook, Instagram, Linkedin, Dribble, X, Menuicon}
