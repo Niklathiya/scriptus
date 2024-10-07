@@ -14,10 +14,10 @@
     margin: 0px 50px;
   }
   .header-menu {
-    display: none !important;
+    display: none;
   }
   .menu-icon {
-    display: block !important;
+    display: flex !important;
   }
   .own-creation-detail {
     padding: 40px 40px 40px 60px;
@@ -25,16 +25,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .custom-container {
-    max-width: 1024px;
-    margin: 0px 50px;
-  }
-  .header-menu {
-    display: none !important;
-  }
-  .menu-icon {
-    display: block !important;
-  }
   .join-detail {
     padding: 80px 60px;
   }
