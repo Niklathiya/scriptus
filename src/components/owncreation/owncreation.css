@@ -1,6 +1,7 @@
 .own-creation-wrapper {
   padding: 100px 0px;
   display: flex;
+  overflow-x: hidden;
 }
 .own-creation-detail {
   display: flex;
